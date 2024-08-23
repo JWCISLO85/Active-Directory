@@ -61,11 +61,23 @@ Created the Client VM and used the same Virtual Network and Resource Group used 
 ![enabling ICMPv4](https://github.com/user-attachments/assets/2d7c67eb-2bfb-4169-856c-d8ce8123c431)
 
 
+![pinging DC-1 to check for connectivity](https://github.com/user-attachments/assets/f5ee1a96-6734-4182-b09f-5082eb59bb8d)
+
+
+![After Enabling ICMPv4 Traffic replies](https://github.com/user-attachments/assets/1c33c7ed-03de-4b1e-b227-c60e02b0ca24)
+
+
+
+
 - Logged into client 1 with the credentials I created earlier in Azure.
 
 - Logged into Domain Controller with the credentials I created earlier in Azure.
 
 - I navigated to Windows Defender Firewall in the Domain Controller. Windows Defender -> Advanced Settings -> Inbound rules -> Enable ICMP4
+
+- Used ping command to check for connectivity in Domain Controller 1.
+
+- Connectivity Confirmed.
 
 
 
@@ -80,7 +92,7 @@ Created the Client VM and used the same Virtual Network and Resource Group used 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
