@@ -38,7 +38,14 @@ Created Domain Controller (Windows Server 2022). Took note of virtual network an
 
 Changed Domain Controller's private Ip to static becuase it will act as a DNS server. This will be make it easire to find for clients. Also security. Network firewalls often have rules based on IP addresses.A static IP for a domain controller allows for more precise and secure firewall configurations.   
  
+
 ![Creating Client-1 VM](https://github.com/user-attachments/assets/0f701fa3-903b-4d8a-852e-e143c81ab196)
+
+Created the Client VM and used the same Virtual Network and Resource Group used for the Doamin Controller.
+
+
+![Correct VN for Client-1](https://github.com/user-attachments/assets/6e90f803-968c-4b83-af03-b512681f57e8)
+
 
 
 </p>
