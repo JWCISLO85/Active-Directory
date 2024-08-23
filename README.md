@@ -61,9 +61,11 @@ Created the Client VM and used the same Virtual Network and Resource Group used 
 ![enabling ICMPv4](https://github.com/user-attachments/assets/2d7c67eb-2bfb-4169-856c-d8ce8123c431)
 
 
-Logged into client 1 with the credentials I created earlier in Azure.
-Logged into Domain Controller with the credentials I created earlier in Azure.
-I navigated to Windows Defender Firewall in the Domain Controller. Windows Defender -> Advanced Settings -> Inbound rules -> Enable ICMP4
+- Logged into client 1 with the credentials I created earlier in Azure.
+
+- Logged into Domain Controller with the credentials I created earlier in Azure.
+
+- I navigated to Windows Defender Firewall in the Domain Controller. Windows Defender -> Advanced Settings -> Inbound rules -> Enable ICMP4
 
 
 
