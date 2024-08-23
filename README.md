@@ -88,7 +88,11 @@ This is a project that I did outlining the implementation of Active Directory wi
 
 ![promote DC-1 to domAin controller](https://github.com/user-attachments/assets/da56f563-0b8d-49f1-94e7-3248fb5fe738)
 
--Installed Active Directory on Windows server.  Add Roles and Features -> Select Active Directory Domain Services
+- Installed Active Directory on Windows server.  Add Roles and Features -> Select Active Directory Domain Services.
+
+- Select Server Roles -> Check Active Directory Domain Services
+
+- Clicked little yellow triangle to promote server to Domain Controller
 
 
 
