@@ -32,11 +32,11 @@ This is a project that I did outlining the implementation of Active Directory wi
 <h2>Setting Up Resources in Azure</h2>
 
 ![Creating VM for Domain Controller ](https://github.com/user-attachments/assets/ef876fa8-202a-40ea-86f2-d00ae63faf2e)
-Created Domain Controller (Windows Server 2022). Took note of virtual network and resource group. This is so I could put the the Client in the same reosurce group and virtual network.
+- Created Domain Controller (Windows Server 2022). Took note of virtual network and resource group. This is so I could put the the Client in the same reosurce group and virtual network.
 
 ![Making DC-1 private IP static](https://github.com/user-attachments/assets/b1ddd5e2-7b6c-414a-9e61-820ce2883f7f)
 
-Changed Domain Controller's private Ip to static because it will act as a DNS server. This will be make it easire to find for clients. Also security. Network firewalls often have rules based on IP addresses.A static IP for a domain controller allows for more precise and secure firewall configurations.   
+- Changed Domain Controller's private Ip to static because it will act as a DNS server. This will be make it easire to find for clients. Also security. Network firewalls often have rules based on IP addresses.A static IP for a domain controller allows for more precise and secure firewall configurations.   
  
 
 ![Creating Client-1 VM](https://github.com/user-attachments/assets/0f701fa3-903b-4d8a-852e-e143c81ab196)
@@ -48,7 +48,7 @@ Changed Domain Controller's private Ip to static because it will act as a DNS se
 ![Correct VN for Client-1](https://github.com/user-attachments/assets/6e90f803-968c-4b83-af03-b512681f57e8)
 
 
-Created the Client VM and used the same Virtual Network and Resource Group used for the Domain Controller.
+- Created the Client VM and used the same Virtual Network and Resource Group used for the Domain Controller.
 
 <h2>Ensuring Connectivity Betwen the client and Domain Controller</h2>
 
