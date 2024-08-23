@@ -80,6 +80,17 @@ This is a project that I did outlining the implementation of Active Directory wi
 - Connectivity Confirmed.
 
 
+<h2>Installation of Active Directory Steps</h2>
+
+![Installing AD](https://github.com/user-attachments/assets/007b2a18-3e5a-48c6-b18a-54bd8c97529d)
+
+![AD Domain Services](https://github.com/user-attachments/assets/4f891db4-e91a-475d-b264-c68ce883e4fc)
+
+![promote DC-1 to domAin controller](https://github.com/user-attachments/assets/da56f563-0b8d-49f1-94e7-3248fb5fe738)
+
+-Installed Active Directory on Windows server.  Add Roles and Features -> Select Active Directory Domain Services
+
+
 
 
 </p>
