@@ -4,7 +4,7 @@
 </p>
 
 <h1>Deploying Active Directory in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This is a project that I did outlining the implementation of Active Directory within Azure Virtual Machines.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -41,8 +41,9 @@ Changed Domain Controller's private Ip to static becuase it will act as a DNS se
 
 ![Creating Client-1 VM](https://github.com/user-attachments/assets/0f701fa3-903b-4d8a-852e-e143c81ab196)
 
-Created the Client VM and used the same Virtual Network and Resource Group used for the Doamin Controller.
+Created the Client VM and used the same Virtual Network and Resource Group used for the Domain Controller.
 
+<p>
 
 ![Correct VN for Client-1](https://github.com/user-attachments/assets/6e90f803-968c-4b83-af03-b512681f57e8)
 
@@ -54,7 +55,7 @@ Created the Client VM and used the same Virtual Network and Resource Group used 
 </p>
 <br />
 
-<p>
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
