@@ -86,21 +86,71 @@ This is a project that I did outlining the implementation of Active Directory wi
 
 ![AD Domain Services](https://github.com/user-attachments/assets/4f891db4-e91a-475d-b264-c68ce883e4fc)
 
+![add new forest](https://github.com/user-attachments/assets/ca2ecabf-b96a-4a38-a4d2-d770b0e8877d)
+
+
 ![promote DC-1 to domAin controller](https://github.com/user-attachments/assets/da56f563-0b8d-49f1-94e7-3248fb5fe738)
 
 - Installed Active Directory on Windows server.  Add Roles and Features -> Select Active Directory Domain Services.
 
 - Select Server Roles -> Check Active Directory Domain Services.
 
+- Added new forest (domain) jonathanwcislo.com
+
 - Clicked little yellow triangle to promote server to Domain Controller.
 
 
 <h2>Creating Admin and Normal User</h2>
 
+![Created ADMINS adn EMPLOYEE OU's](https://github.com/user-attachments/assets/9318220c-5e2b-4d0a-b52f-2c1b80526375)
+
 
 ![Created Jonny login](https://github.com/user-attachments/assets/3779cde0-aeb2-4320-b762-695bc69955bc)
 
-![Jane Doe Created](https://github.com/user-attachments/assets/e9fc52de-4ef9-489d-b162-d6af58e1b9e5)
+
+![Logging in with Jonny admin](https://github.com/user-attachments/assets/49e12d15-80b1-424b-9b60-20ab55052596)
+
+
+![Jane Doe Created](https://github.com/user-attachments/assets/2b725ac0-ad7f-4a24-b75f-5089780422c0)
+
+![Password for Jane Doe](https://github.com/user-attachments/assets/5de5ff34-14db-4d25-8bad-d00dcb26f018)
+
+![Logging in with Jonny admin](https://github.com/user-attachments/assets/46cca603-5f1a-43ef-8e42-264dde9380e7)
+
+
+
+
+- Created Admins and Employee Organizational Units.
+- Created Jonny_admin account.
+- Create Jane Doe user account.
+- Logging back in after making server a Domain Controller.
+
+
+
+  <h2>Joining Client 1 to domain</h2>
+
+![DNS server Client 1](https://github.com/user-attachments/assets/a4b64f1b-a370-4b56-af88-3d3597afa93b)
+
+![Setting Client 1 DNS settings](https://github.com/user-attachments/assets/a2fc735d-b6e9-497c-a63e-93ae379b5a2f)
+
+![using ipconfig  to see if DNS server has changed](https://github.com/user-attachments/assets/90cd278d-d4ed-48c9-a542-572e84831a1d)
+
+![adding client 1 to domain](https://github.com/user-attachments/assets/0f4e3bf3-e9eb-4b53-b702-5a59c0778b28)
+
+![Adding Cl1 domain 2](https://github.com/user-attachments/assets/e5f36d25-68e0-448c-a961-9dcd725f9aa7)
+
+![Successfully joined client 1 to domain](https://github.com/user-attachments/assets/9a609d1f-f0e1-44eb-9053-ec7ebd25d481)
+
+
+
+-From the Azure Portal I set Client 1's DNS settings to the Domain Controller's Private IP and restarted the Client 1 form Azure.
+
+-Logged into Client 1 to check if DNS server had changed to Domain Controller IP using Ipconfig.
+
+- Added Client 1 to Domain jonathanwcislo.com  Start -> System -> Rename this PC
+
+- Successfully added Client-1 to the Domain.
+
 
 
 
