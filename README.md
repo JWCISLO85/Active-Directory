@@ -90,9 +90,20 @@ This is a project that I did outlining the implementation of Active Directory wi
 
 - Installed Active Directory on Windows server.  Add Roles and Features -> Select Active Directory Domain Services.
 
-- Select Server Roles -> Check Active Directory Domain Services
+- Select Server Roles -> Check Active Directory Domain Services.
 
-- Clicked little yellow triangle to promote server to Domain Controller
+- Clicked little yellow triangle to promote server to Domain Controller.
+
+
+<h2>Creating Admin and Normal User</h2>
+
+
+![Created Jonny login](https://github.com/user-attachments/assets/3779cde0-aeb2-4320-b762-695bc69955bc)
+
+![Jane Doe Created](https://github.com/user-attachments/assets/e9fc52de-4ef9-489d-b162-d6af58e1b9e5)
+
+
+
 
 
 
