@@ -41,14 +41,14 @@ Changed Domain Controller's private Ip to static becuase it will act as a DNS se
 
 ![Creating Client-1 VM](https://github.com/user-attachments/assets/0f701fa3-903b-4d8a-852e-e143c81ab196)
 
-Created the Client VM and used the same Virtual Network and Resource Group used for the Domain Controller.
+
 
 <p>
 
 ![Correct VN for Client-1](https://github.com/user-attachments/assets/6e90f803-968c-4b83-af03-b512681f57e8)
 
 
-
+Created the Client VM and used the same Virtual Network and Resource Group used for the Domain Controller.
 </p>
 <p>
 
