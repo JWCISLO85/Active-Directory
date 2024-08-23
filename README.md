@@ -152,7 +152,14 @@ This is a project that I did outlining the implementation of Active Directory wi
 - Successfully added Client-1 to the Domain.
 
 
+  
 
+
+<h2>Setup Remote Desktop for non-administrative users on Client 1</h2>
+
+- Logged into Client 1 as jonathnwcislo.com\jonny_admin
+- Clicked on Remote Desktop System Properties -> Allow Domain Users access to remote desktop.
+- This would normally been done with Group Policy to configure many machines
 
 
 
@@ -173,9 +180,8 @@ This is a project that I did outlining the implementation of Active Directory wi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
