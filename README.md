@@ -32,7 +32,7 @@ This is a project that I did outlining the implementation of Active Directory wi
 <h2>Setting Up Resources in Azure</h2>
 
 ![Creating VM for Domain Controller ](https://github.com/user-attachments/assets/ef876fa8-202a-40ea-86f2-d00ae63faf2e)
-- Created Domain Controller (Windows Server 2022). Took note of virtual network and resource group. This is so I could put the the Client in the same reosurce group and virtual network.
+- Created Domain Controller (Windows Server 2022). Took note of virtual network and resource group. This is so I could put the the Client in the same resource group and virtual network.
 
 ![Making DC-1 private IP static](https://github.com/user-attachments/assets/b1ddd5e2-7b6c-414a-9e61-820ce2883f7f)
 
@@ -50,7 +50,7 @@ This is a project that I did outlining the implementation of Active Directory wi
 
 - Created the Client VM and used the same Virtual Network and Resource Group used for the Domain Controller.
 
-<h2>Ensuring Connectivity Betwen the client and Domain Controller</h2>
+<h2>Ensuring Connectivity Between the client and Domain Controller</h2>
 
 ![RDP Client 1 from my computer](https://github.com/user-attachments/assets/2079f459-fbde-4bdd-97eb-88aae5303530)
 
