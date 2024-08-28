@@ -26,7 +26,7 @@ This is a project that I did outlining the implementation of Active Directory wi
 - Install Active Directory.
 - Create an Admin and Normal User Account in Active Directory.
 - Add Client-1 to the created Domain
-- Set up remote Desktop for non-adminstrative users on Client-1
+- Set up remote Desktop for non-administrative users on Client-1
 - Create additional users
 
 <h2>Setting Up Resources in Azure</h2>
