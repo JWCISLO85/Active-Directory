@@ -36,7 +36,7 @@ This is a project that I did outlining the implementation of Active Directory wi
 
 ![Making DC-1 private IP static](https://github.com/user-attachments/assets/b1ddd5e2-7b6c-414a-9e61-820ce2883f7f)
 
-- Changed Domain Controller's private Ip to static because it will act as a DNS server. This will be make it easire to find for clients. Also security. Network firewalls often have rules based on IP addresses.A static IP for a domain controller allows for more precise and secure firewall configurations.   
+- Changed Domain Controller's private Ip to static because it will act as a DNS server. This will be make it easier to find for clients. Also security. Network firewalls often have rules based on IP addresses.A static IP for a domain controller allows for more precise and secure firewall configurations.   
  
 
 ![Creating Client-1 VM](https://github.com/user-attachments/assets/0f701fa3-903b-4d8a-852e-e143c81ab196)
